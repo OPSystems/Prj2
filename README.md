@@ -14,7 +14,7 @@
     - <code>cd</code> into the directory where the file resides
     - At the command prompt, type <code>gcc procon.c -o procon -lpthread</code> then press enter
     - Then type <code>./procon</code> and again press enter
-    - Then program will run for infinity so user must press 'cntrl c' to exit
+    - The program will run for infinity so user must press 'cntrl c' to exit
     <br>
     
 2. Mother Hubbard (children, mother, father)
