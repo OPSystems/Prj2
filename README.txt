@@ -9,7 +9,7 @@ Learn to:
 
 Instructions and Summary:
 
-- First run Makefile
+- First run Makefile (type 'make' into terminal)
 
 1. Bounded-buffer Producer/Consumer problem:
 This program implements a solution to the boundedbuffer producer/consumer problem. The solution uses synchronization primitives (pthread_mutex_t for mutual exclusion and sem_t for minding the buffer size) provided by the POSIX threads. The implementation consists of a control program that (i) initializes the buffer and the synchronization variables and (ii) creates and terminates the threads for the producer and the consumer. The producer generates printable characters and places them into the buffer and the consumer pulls the characters out of the buffer one at a time and prints them out.
