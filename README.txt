@@ -18,6 +18,8 @@ Instructions:
 in terminal
 type './procon' into terminal and press <enter>.
 
+** the program runs for infinity so user needs to press 'cntrl c' to exit. **
+
 2. Mother Hubbard (children, mother, father)
 This program simulates days in the life of Mother Hubbard. There are 12 children, and each child needs to be woken up, fed breakfast, sent to school, given dinner, given a bath, read a book, and tucked in bed. The mother applies each task in order, to each child in order, before being able to move on to the next task. Then after all the children have all the tasks done to them, the mother can take a nap break. After a child takes their bath, the father can read the child a book and tuck the child in bed. When all children are in bed, then the father can go to sleep. When the father goes to sleep, he wakes up the mother and the cycle repeats.
 
