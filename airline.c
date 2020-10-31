@@ -116,6 +116,12 @@ void *terminal(void *passNo)
 
 int main(int argc, char *argv[])
 {   
+    //Exit program if invalid number of arguments are given
+    if (argc != 5) {
+        printf("Program requires 4 argument: (1) number of passengers, (2) number of baggage handlers (3) number of security screeners (4) number of flight attendants.\n");
+        exit(1);
+    }
+    
     pSize = atoi(argv[1]);              // set passenger size to second command line argument (first argument is program name)
     bSize = atoi(argv[2]);              // set baggage size to third command line argument
     sSize = atoi(argv[3]);              // set security size to fourth command line argument

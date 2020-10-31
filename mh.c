@@ -77,6 +77,12 @@ void *fatherFunc()
 
 int main(int argc, char *argv[])
 {   
+    //Exit program if invalid number of arguments are given
+    if (argc != 2) {
+        printf("Program requires 1 argument: number of day/night cycles.\n");
+        exit(1);
+    }
+    
     pthread_t m, f;                                         // declare threads
     pthread_mutex_init(&mother, NULL);                      // initialize mutex for mother
     pthread_mutex_unlock(&mother);                          // release lock for mother
